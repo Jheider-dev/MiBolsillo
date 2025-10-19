@@ -53,7 +53,6 @@ fun PantallaAgregarIngreso() {
         ) {
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Título "AGREGAR INGRESO"
             Text(
                 text = "AGREGAR INGRESO",
                 fontSize = 20.sp,
@@ -63,7 +62,6 @@ fun PantallaAgregarIngreso() {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Icono y texto "Registra tus ingresos"
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center,
@@ -75,7 +73,6 @@ fun PantallaAgregarIngreso() {
                     color = Color.Black,
                     modifier = Modifier.padding(end = 12.dp)
                 )
-                // Icono de ingreso (puedes usar un drawable o un icono personalizado)
                 Image(
                     painter = painterResource(id = R.drawable.ingresos),
                     contentDescription = "Imagen ingreso",
@@ -86,27 +83,22 @@ fun PantallaAgregarIngreso() {
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Campo Categoría
             CampoTextoAgregar(placeholder = "Categoría")
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Campo Monto
             CampoTextoAgregar(placeholder = "Monto")
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Campo Descripción
             CampoTextoAgregar(placeholder = "Descripción...")
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Campo Fecha
             CampoTextoAgregar(placeholder = "Fecha")
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            // Botón AGREGAR
             Button(
                 onClick = { },
                 modifier = Modifier

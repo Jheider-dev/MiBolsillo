@@ -49,7 +49,6 @@ fun RecuperarContrasenaPantalla() {
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.padding(horizontal = 32.dp)
         ) {
-            // Título
             Text(
                 text = "RECUPERAR\nCONTRASEÑA",
                 fontSize = 22.sp,

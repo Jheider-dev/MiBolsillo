@@ -35,8 +35,7 @@ class PrincMenu : ComponentActivity() {
 
 @Composable
 fun PantallaConMenu() {
-    Box(modifier = Modifier.fillMaxSize()) {
-        // Pantalla principal
+    Box(modifier = Modifier.fillMaxSize()) { // Pantalla principal
         Column(
             modifier = Modifier
                 .fillMaxSize()
