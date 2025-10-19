@@ -54,6 +54,7 @@ dependencies {
 
     implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.foundation)
+    implementation("com.github.tehras:compose-charts:1.0.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation(libs.androidx.ui.test.manifest)
