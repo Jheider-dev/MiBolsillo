@@ -69,7 +69,7 @@ fun PantallaBienvenida() {
             Spacer(modifier = Modifier.height(24.dp))
 
             Text(
-                text = "¡Bienvenido a MiBolsillo! 💰\n Empieza hoy a controlar tus gastos, ahorrar con propósito y alcanzar tus metas financieras de forma sencilla.",
+                text = "¡Bienvenido a MiBol\$illo! 💰\n Empieza hoy a controlar tus gastos, ahorrar con propósito y alcanzar tus metas financieras de forma sencilla.",
                 fontSize = 15.sp,
                 color = Color.Black,
                 textAlign = TextAlign.Center
